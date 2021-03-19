@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;  
+}
+
+body{
+    background: #b3b0b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Sora', sans-serif;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    
+    border-radius: 36px;
+    background: linear-gradient(315deg, #c0bcc2, #a19ea3);
+    box-shadow:  -31px -31px 69px #939094,
+                 31px 31px 69px #d3d0d6;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+input{
+    background: #e0e0e0;
+    height: 60px;
+    flex: 2;
+    margin-right: 0;
+    border: 0;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    outline: none;
+    opacity: 0.3;
+}
+
+button{
+    flex: 1;
+    margin-left: 0;
+    height: 60px;
+    border: 0;
+    border-radius: 0 20px 20px 0;
+    background: #e0a014;
+    font-weight: 100;
+    outline:none;
+
+}
+
+h1{
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #7d7b80;
+}
+
+main{
+    width: 80%;
+    margin-top: 20px;
+    height: 90px;
+    color: #6a696b;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 6px 6px 12px #bebebe,
+            inset -6px -6px 12px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+}
+
+main p{
+    text-align: center;
+    width:100%;
+}
